@@ -8,6 +8,6 @@ server.on('connection',(socket)=>{
 	socket.pipe(writeStream);
 })
 
-// Enter IP address of any device which is in the LAN
+// Enter IP address of reciever device
 
-server.listen(3000);
+server.listen(3000,'172.18.3.101');
